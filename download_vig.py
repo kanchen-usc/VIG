@@ -22,7 +22,7 @@ ydl_opts = {
 	# we want 480p video, file size < 300MB
     'format': 'bestvideo[height<=480][filesize<300M]+bestaudio/best[height<=480]',
     # downloaded videos will be saved in specific folders, with video_id.ext format
-    'outtmpl': '/media/kanchen/Data2/yt8m_v2/%(id)s.%(ext)s',
+    'outtmpl': '~/dataset/vig/%(id)s.%(ext)s',
     # time out threshold is 100s
     'socket_timeout': 100,
     'logger': MyLogger(),
@@ -54,6 +54,6 @@ with youtube_dl.YoutubeDL(ydl_opts) as ydl:
 err_ids = np.array(err_ids)
 completed_ids = np.array(completed_ids)
 
-np.save('yt8m_dl_v2_err_ids_%d.npy'%(split_id), err_ids)
-np.save('yt8m_dl_v2_complete_ids_%d.npy'%(split_id), completed_ids)
+np.save('vig_dl_err_ids_%d.npy'%(split_id), err_ids)
+np.save('vig_dl_complete_ids_%d.npy'%(split_id), completed_ids)
 
