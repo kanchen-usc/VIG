@@ -17,7 +17,9 @@ We explore generating fine-grained sound from a variety of sound classes, and le
 
 ## VIG dataset download
 
-We provide the Youtube ID for each video in the file `vig_dl.lst`. You may use tools like [youtube-dl](https://github.com/rg3/youtube-dl) to download these videos (A sample download script `download_vig.py` is provided in this repository). In file `vig_dl.lst`, each youtube video is mapped to a file ID in each line. The files `vig_train.lst` and `vig_test.lst` specify the training and test videos by these file IDs respectively. For annotation files, we provide start time (key name `start_time`), end time (key name `end_time`) and sound class label (key name `vig_label`) in the file `vig_annotation.pkl`. Please open it using Python 2.7. The sound class is mapped to a class ID in the annotation file. The map between class name and class ID is provided in the file `vig_class_map.pkl`.
+> Data processing is based on Python 2.7
+
+We provide the Youtube ID for each video in the file `vig_dl.lst`. You may use tools like [youtube-dl](https://github.com/rg3/youtube-dl) to download these videos (A sample download script `download_vig.py` is provided in this repository). In file `vig_dl.lst`, each youtube video is mapped to a file ID in each line. The files `vig_train.lst` and `vig_test.lst` specify the training and test videos by these file IDs respectively. For annotation files, we provide start time (key name `start_time`), end time (key name `end_time`) and sound class label (key name `vig_label`) in the file `vig_annotation.pkl`. The sound class is mapped to a class ID in the annotation file. The map between class name and class ID is provided in the file `vig_class_map.pkl`.
 
 Some demo video clips as well as sound waveform and spectrogram are shown in the figure below.
 
