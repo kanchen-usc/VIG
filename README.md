@@ -7,13 +7,12 @@ This repository includes Visually Indicated sound Generation (VIG) dataset menti
 
 ## Framework
 
-The framework of Visually Indicated Sound Generation byPerceptually Optimized Classification is shown below:
+We explore generating fine-grained sound from a variety of sound classes, and leverage pre-trained sound classification networks to improve the audio generation quality. We propose a novel Perceptually Optimized Classification based Audio generation Network (POCAN), which generates sound conditioned on the sound class predicted from visual information. Additionally, a perceptual loss is calculated via a pre-trained sound classification network to align the semantic information between the generated sound and its ground truth during training.
+The framework of POCAN is shown below.
 
 <p align="center">
   <img src='img/framework.png' width='900'/>
 </p>
-
-We explore generating fine-grained sound from a variety of sound classes, and leverage pre-trained sound classification networks to improve the audio generation quality. We propose a novel Perceptually Optimized Classification based Audio generation Network (POCAN), which generates sound conditioned on the sound class predicted from visual information. Additionally, a perceptual loss is calculated via a pre-trained sound classification network to align the semantic information between the generated sound and its ground truth during training.
 
 ## VIG dataset download
 
@@ -37,6 +36,19 @@ We choose the recall at top K (R@K) as the metric for retrieving sound in the te
 | POCAN   | 0.1223  | 0.3625  | 0.4802  |
 
 More details can be found in the [paper](http://wind09.github.io/docs/mula2018.pdf).
+
+## Citation
+
+If you find the repository is useful for your research, please consider citing the following work:
+
+```
+@inproceedings{{chenvisually,
+  title={Visually Indicated Sound Generation by Perceptually Optimized Classification},
+  author={Chen*, Kan and Zhang*, Chuanxi and Fang, Chen and Wang, Zhaowen and Bui, Trung and Nevatia, Ram}
+  booktitle={ECCV MULA Workshop},
+  year={2018}
+}
+```
 
 ## Reference
 
