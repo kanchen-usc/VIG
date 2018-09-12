@@ -42,7 +42,7 @@ More details can be found in the [paper](http://wind09.github.io/docs/mula2018.p
 If you find the repository is useful for your research, please consider citing the following work:
 
 ```
-@inproceedings{{chenvisually,
+@inproceedings{chenvisually,
   title={Visually Indicated Sound Generation by Perceptually Optimized Classification},
   author={Chen*, Kan and Zhang*, Chuanxi and Fang, Chen and Wang, Zhaowen and Bui, Trung and Nevatia, Ram}
   booktitle={ECCV MULA Workshop},
