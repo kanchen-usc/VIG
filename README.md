@@ -1,5 +1,5 @@
 # VIG Dataset
-This repository includes Visually Indicated sound Generation (VIG) dataset mentioned in [Visually Indicated Sound Generation by Perceptually Optimized Classification](http://wind09.github.io/docs/mula2018.pdf) (Best paper in [ECCV MULA workshop 2018](http://mula2018.github.io/)).
+This repository includes Visually Indicated sound Generation (VIG) dataset mentioned in [Visually Indicated Sound Generation by Perceptually Optimized Classification](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11134/Chen_Visually_Indicated_Sound_Generation_by_Perceptually_Optimized_Classification_ECCVW_2018_paper.pdf) (Best paper in [ECCV MULA workshop 2018](http://mula2018.github.io/)).
 
 ## Introduction
 
